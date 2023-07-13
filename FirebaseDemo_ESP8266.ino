@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 WiFiClient client;
 
-#define WIFI_SSID "Nick Bateman" // nama wifi/hotspot
-#define WIFI_PASSWORD "angela271111" // password wifi/hotspot
+#define WIFI_SSID "your_wifi_name" // nama wifi/hotspot
+#define WIFI_PASSWORD "your_wifi_password" // password wifi/hotspot
 
 
 //ThingSpeak Config
@@ -13,8 +13,8 @@ String writeAPIKey = "6F8XARUJ42C6W47W"; //Ganti API Key di Channel Masing Masin
 String request_string;
 
 #include <FirebaseArduino.h>
-#define FIREBASE_HOST "yukcoba-83a46-default-rtdb.firebaseio.com" //web sesuai masing - masing
-#define FIREBASE_AUTH "LHEBiLveBJdNHMFmio0GtedQA5RGfdIz88RaaQ7Z" //secret sesuai masing - masing
+#define FIREBASE_HOST "your_firebase_host_name" //web sesuai masing - masing
+#define FIREBASE_AUTH "your_firebase_auth" //secret sesuai masing - masing
 
 int triggerPin = D0; // Jumper pin trigger sensor ke pin D0 NodeMCU
 int echoPin = D1; // Jumper pin echo sensor ke pin D1 NodeMCU
